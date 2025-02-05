@@ -1,0 +1,25 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color-one: #103178;
+  --color-two: #ffc800;
+  --color-three: #5b6c8f;
+
+  --font: "Inria Serif", serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--font);
+}
+
+.container {
+  width: min(100%, 120rem);
+  margin-left: auto;
+  margin-right: auto;
+}

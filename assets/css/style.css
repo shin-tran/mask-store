@@ -1,0 +1,13 @@
+/* Header */
+.header-top {
+  font-size: 1.8rem;
+  color: var(--color-two);
+  background: var(--color-one);
+  text-align: center;
+  padding: .9rem;
+}
+
+.header-main .inner-wrap {
+
+}
+/* End Header */
