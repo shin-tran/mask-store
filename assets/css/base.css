@@ -5,9 +5,18 @@
 :root {
   --color-one: #103178;
   --color-two: #ffc800;
-  --color-three: #5b6c8f;
+  --color-three: #040c1e;
+  --color-text: #5b6c8f;
+  --color-four: #47b5ed;
+  --color-five: #13a05d;
+  --color-six: #bbbbbb;
+  --color-background: #f0f2f5;
 
   --font: "Inria Serif", serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -18,8 +27,69 @@ body {
   font-family: var(--font);
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .container {
   width: min(100%, 120rem);
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Buttons */
+.button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: var(--color-two);
+  color: #fff;
+  border: 2px solid var(--color-two);
+  border-radius: 3rem;
+  padding: 1.6rem 4.8rem;
+  display: inline-flex;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: var(--color-two);
+}
+/* End Buttons */
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
 }
