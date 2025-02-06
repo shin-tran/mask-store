@@ -276,6 +276,7 @@
 }
 
 .section-three .inner-title h2 {
+  max-width: 68.5rem;
   font-size: 4.6rem;
   color: var(--color-one);
   margin-bottom: 16px;
