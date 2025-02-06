@@ -89,10 +89,6 @@
 /* End Header */
 
 /* Section One */
-.section-one {
-  background-color: var(--color-background);
-}
-
 .section-one .inner-wrap {
   padding: 1rem 0;
   display: flex;
@@ -270,4 +266,5 @@
 /* End Section Two */
 
 /* Section Three */
+
 /* End Section Three */

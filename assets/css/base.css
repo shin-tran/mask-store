@@ -37,6 +37,10 @@ ul {
   list-style: none;
 }
 
+.section:nth-child(even) {
+  background-color: var(--color-background);
+}
+
 .container {
   width: min(100%, 120rem);
   margin-left: auto;
