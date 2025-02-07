@@ -1,8 +1,11 @@
 @media (max-width: 1200px) {
+  /* Header */
   .header-main .inner-menu {
     margin-left: 1rem;
   }
+  /* End Header */
 
+  /* Section One */
   .section-one .inner-content .inner-item {
     margin-right: 9rem;
   }
@@ -15,13 +18,17 @@
   .section-one .inner-content .button {
     margin-bottom: 1.6rem;
   }
+  /* End Section One */
 }
 
 @media (max-width: 992px) {
+  /* Header */
   .header-main .inner-contact {
     display: none;
   }
+  /* End Header */
 
+  /* Section One */
   .section-one .inner-content, .section-one .inner-image {
     width: 100%;
   }
@@ -46,9 +53,34 @@
     max-height: 26rem;
     margin-bottom: 4rem;
   }
+  /* End Section One */
+
+  /* Section Three */
+  .section-three .uses-item {
+    max-width: 220px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* End Section Three */
+
+  
+  /* Section Four */
+  .section-four .inner-content h2 {
+    font-size: 5rem;
+  }
+  
+  .section-four .inner-content p {
+    font-size: 2.2rem;
+  }
+
+  .section-four .inner-image {
+    max-width: 332px;
+  }
+  /* End Section Four */
 }
 
 @media (max-width: 768px) {
+  /* Header */
   .header-top {
     font-size: 1.6rem;
   }
@@ -60,7 +92,9 @@
   .header-main .inner-menu-mobi {
     display: block;
   }
+  /* End Header */
 
+  /* Section One */
   .section-one .inner-content {
     text-align: center;
   }
@@ -79,9 +113,41 @@
     top: 2.1rem;
     right: 12rem;
   }
+  /* End Section One */
+
+  /* Section Three */
+  .section-three .inner-uses-list {
+    display: block;
+  }
+
+  .section-three .uses-item {
+    max-width: 100%;
+  }
+  /* End Section Three */
+
+  /* Section Four */
+  .section-four .inner-wrap {
+    flex-direction: column;
+  }
+
+  .section-four .inner-content {
+    order: 2;
+    text-align: center;
+  }
+
+  .section-four .inner-content h2 {
+    padding-top: 20px;
+  }
+  
+  .section-four .inner-image {
+    order: 1;
+    max-width: 510px;
+  }
+  /* End Section Four */
 }
 
 @media (max-width: 576px) {
+  /* Section One */
   .section-one .inner-content h1 {
     font-size: 4.8rem;
   }
@@ -108,21 +174,5 @@
   .section-one .inner-image .inner-sale span:last-child {
     font-size: 3.6rem;
   }
-}
-
-@media (max-width: 400px) {
-  .section-one .inner-image .inner-sale {
-    width: 8rem;
-    height: 8rem;
-    top: 1.1rem;
-    right: 8rem;
-  }
-
-  .section-one .inner-image .inner-sale span:first-child {
-    font-size: 1.8rem;
-  }
-
-  .section-one .inner-image .inner-sale span:last-child {
-    font-size: 3.6rem;
-  }
+  /* End Section One */
 }

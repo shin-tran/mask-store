@@ -267,7 +267,7 @@
 
 /* Section Three */
 .section-three .inner-wrap {
-  padding: 8rem;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -315,3 +315,52 @@
   font-size: 1.7rem;
 }
 /* End Section Three */
+
+/* Section Four */
+.section-four .inner-wrap {
+  margin: 8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-four .inner-content {
+  max-width: 46rem;
+  margin-left: 32px;
+}
+
+.section-four .inner-content h2 {
+  font-size: 6rem;
+  color: var(--color-one);
+}
+
+.section-four .inner-content p {
+  font-size: 2.4rem;
+  color: var(--color-one);
+  margin: 35px 0;
+}
+
+.section-four .inner-content .btn-two {
+  padding: 1rem 3rem;
+}
+
+.section-four .inner-image {
+  width: 585px;
+  height: 100%;
+}
+
+.section-four .inner-image img {
+  width: 100%;
+}
+/* End Section Four */
+
+/* Section Four */
+/* End Section Four */
+/* Section Four */
+/* End Section Four */
+/* Section Four */
+/* End Section Four */
+/* Section Four */
+/* End Section Four */
+/* Section Four */
+/* End Section Four */
