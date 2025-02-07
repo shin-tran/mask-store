@@ -65,14 +65,6 @@
 
   
   /* Section Four */
-  .section-four .inner-content h2 {
-    font-size: 5rem;
-  }
-  
-  .section-four .inner-content p {
-    font-size: 2.2rem;
-  }
-
   .section-four .inner-image {
     max-width: 332px;
   }
@@ -132,6 +124,7 @@
 
   .section-four .inner-content {
     order: 2;
+    margin-left: 0;
     text-align: center;
   }
 
@@ -141,7 +134,7 @@
   
   .section-four .inner-image {
     order: 1;
-    max-width: 510px;
+    max-width: 100%;
   }
   /* End Section Four */
 }
